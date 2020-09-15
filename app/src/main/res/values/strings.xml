@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Android Challenge No.1</string>
+
+    <string-array name="from">
+        <item>From</item>
+
+    </string-array>
+    <string-array name="to">
+        <item>To</item>
+
+    </string-array>
+
+
+</resources>
