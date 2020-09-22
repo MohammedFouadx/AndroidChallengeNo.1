@@ -12,24 +12,27 @@
 
     <Spinner
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
         android:layout_margin="10dp"
+        android:layout_weight="0.5"
         android:entries="@array/from">
 
     </Spinner>
     <Spinner
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
         android:layout_margin="10dp"
+        android:layout_weight="0.5"
         android:entries="@array/to">
 
     </Spinner>
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:text="Subject"
         android:textSize="20sp"
+        android:layout_weight="0.5"
         android:layout_margin="10dp">
 
     </EditText>
@@ -37,10 +40,11 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:text="Compose email "
         android:textSize="20sp"
         android:layout_margin="10dp"
+        android:layout_weight="5"
         android:gravity="top">
 
     </EditText>
